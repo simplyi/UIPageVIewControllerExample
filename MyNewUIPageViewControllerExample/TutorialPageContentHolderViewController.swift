@@ -10,10 +10,19 @@ import UIKit
 
 class TutorialPageContentHolderViewController: UIViewController {
 
+    @IBOutlet weak var myImageView: UIImageView!
+    
+    var imageFileName: String!
+    var pageIndex:Int!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        myImageView.image = UIImage(named:imageFileName)
+        
     }
 
     override func didReceiveMemoryWarning() {

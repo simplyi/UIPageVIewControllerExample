@@ -13,6 +13,8 @@
 		9488E8891AFEF88C004BD0D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9488E8881AFEF88C004BD0D0 /* Images.xcassets */; };
 		9488E88C1AFEF88C004BD0D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9488E88A1AFEF88C004BD0D0 /* LaunchScreen.xib */; };
 		9488E8981AFEF88C004BD0D0 /* MyNewUIPageViewControllerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488E8971AFEF88C004BD0D0 /* MyNewUIPageViewControllerExampleTests.swift */; };
+		9488E8A21AFEF915004BD0D0 /* TheNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488E8A11AFEF915004BD0D0 /* TheNextViewController.swift */; };
+		9488E8A41AFF0446004BD0D0 /* TutorialPageContentHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488E8A31AFF0446004BD0D0 /* TutorialPageContentHolderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9488E8911AFEF88C004BD0D0 /* MyNewUIPageViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewUIPageViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9488E8961AFEF88C004BD0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9488E8971AFEF88C004BD0D0 /* MyNewUIPageViewControllerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewUIPageViewControllerExampleTests.swift; sourceTree = "<group>"; };
+		9488E8A11AFEF915004BD0D0 /* TheNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheNextViewController.swift; sourceTree = "<group>"; };
+		9488E8A31AFF0446004BD0D0 /* TutorialPageContentHolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageContentHolderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				9488E8881AFEF88C004BD0D0 /* Images.xcassets */,
 				9488E88A1AFEF88C004BD0D0 /* LaunchScreen.xib */,
 				9488E87F1AFEF88C004BD0D0 /* Supporting Files */,
+				9488E8A11AFEF915004BD0D0 /* TheNextViewController.swift */,
+				9488E8A31AFF0446004BD0D0 /* TutorialPageContentHolderViewController.swift */,
 			);
 			path = MyNewUIPageViewControllerExample;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9488E8841AFEF88C004BD0D0 /* ViewController.swift in Sources */,
+				9488E8A41AFF0446004BD0D0 /* TutorialPageContentHolderViewController.swift in Sources */,
 				9488E8821AFEF88C004BD0D0 /* AppDelegate.swift in Sources */,
+				9488E8A21AFEF915004BD0D0 /* TheNextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
