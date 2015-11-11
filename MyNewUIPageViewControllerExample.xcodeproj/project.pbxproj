@@ -162,6 +162,8 @@
 		9488E8741AFEF88C004BD0D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Sergey Kargopolov";
 				TargetAttributes = {
@@ -417,6 +419,7 @@
 				9488E89D1AFEF88D004BD0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9488E89E1AFEF88D004BD0D0 /* Build configuration list for PBXNativeTarget "MyNewUIPageViewControllerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +428,7 @@
 				9488E8A01AFEF88D004BD0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

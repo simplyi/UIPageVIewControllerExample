@@ -28,12 +28,12 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         
         self.pageViewController.dataSource = self
         
-        var initialContenViewController = self.pageTutorialAtIndex(0) as TutorialPageContentHolderViewController
+        let initialContenViewController = self.pageTutorialAtIndex(0) as TutorialPageContentHolderViewController
         
-        var viewControllers = NSArray(object: initialContenViewController)
+        let viewControllers = NSArray(object: initialContenViewController)
         
         
-        self.pageViewController.setViewControllers(viewControllers as [AnyObject], direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
+        self.pageViewController.setViewControllers(viewControllers as? [UIViewController], direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
         
         self.pageViewController.view.frame = CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height-100)
        
@@ -55,7 +55,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     func pageTutorialAtIndex(index: Int) ->TutorialPageContentHolderViewController
     {
         
-        var pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("TutorialPageContentHolderViewController") as! TutorialPageContentHolderViewController
+        let pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("TutorialPageContentHolderViewController") as! TutorialPageContentHolderViewController
         
         pageContentViewController.imageFileName = pageImages[index] as! String
         pageContentViewController.pageIndex = index
@@ -68,7 +68,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController?
     {
-        var viewController = viewController as! TutorialPageContentHolderViewController
+        let viewController = viewController as! TutorialPageContentHolderViewController
         var index = viewController.pageIndex as Int
         
         if(index == 0 || index == NSNotFound)
@@ -83,7 +83,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController?
     {
-        var viewController = viewController as! TutorialPageContentHolderViewController
+        let viewController = viewController as! TutorialPageContentHolderViewController
         var index = viewController.pageIndex as Int
         
         if((index == NSNotFound))
@@ -124,7 +124,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
  
     @IBAction func skipButtonTapped(sender: AnyObject) {
         
-        var nextView: TheNextViewController = self.storyboard?.instantiateViewControllerWithIdentifier("TheNextViewController") as! TheNextViewController
+        let nextView: TheNextViewController = self.storyboard?.instantiateViewControllerWithIdentifier("TheNextViewController") as! TheNextViewController
         
         let appdelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
