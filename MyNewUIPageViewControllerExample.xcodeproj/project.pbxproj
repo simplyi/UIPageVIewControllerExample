@@ -167,9 +167,11 @@
 				TargetAttributes = {
 					9488E87B1AFEF88C004BD0D0 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0820;
 					};
 					9488E8901AFEF88C004BD0D0 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 9488E87B1AFEF88C004BD0D0;
 					};
 				};
@@ -351,6 +353,7 @@
 				INFOPLIST_FILE = MyNewUIPageViewControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -361,6 +364,7 @@
 				INFOPLIST_FILE = MyNewUIPageViewControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -379,6 +383,7 @@
 				INFOPLIST_FILE = MyNewUIPageViewControllerExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNewUIPageViewControllerExample.app/MyNewUIPageViewControllerExample";
 			};
 			name = Debug;
@@ -394,6 +399,7 @@
 				INFOPLIST_FILE = MyNewUIPageViewControllerExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNewUIPageViewControllerExample.app/MyNewUIPageViewControllerExample";
 			};
 			name = Release;
@@ -417,6 +423,7 @@
 				9488E89D1AFEF88D004BD0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9488E89E1AFEF88D004BD0D0 /* Build configuration list for PBXNativeTarget "MyNewUIPageViewControllerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +432,7 @@
 				9488E8A01AFEF88D004BD0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
